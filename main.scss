@@ -125,14 +125,14 @@ img{
 }
 
 /*========== LAYOUT ==========*/
-.bd-container{
+.mz-container{
     max-width: 960px;
     width: calc(100% - 2rem);
     margin-left: var(--mb-2);
     margin-right: var(--mb-2);
 }
 
-.bd-grid{
+.mz-grid{
     display: grid;
     gap: 1.5rem;
 }
@@ -522,7 +522,7 @@ img{
 }
 
 @media screen and (min-width: 960px){
-    .bd-container{
+    .mz-container{
         margin-left: auto;
         margin-right: auto;
     }

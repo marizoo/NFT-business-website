@@ -1,6 +1,7 @@
 ## DESCRIPTION:
 - A modern responsive website that sells NFTs.
 - Mobile first design.
+- Light and Dark theme.
 - [Youtube Video of the App](https://youtu.be/U8Y_ybkVaKg)
 - link to the App's video on youtube: https://youtu.be/U8Y_ybkVaKg
 

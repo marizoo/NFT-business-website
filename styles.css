@@ -6,10 +6,6 @@
   --header-height: 3rem;
 
   /*========== Colors ==========*/
-  /* --first-color: #069C54;
-  --first-color-alt: #048654; */
-  /* --first-color: #7305b3;
-  --first-color-alt: #4e0379; */
   --first-color: #e0473c;
   --first-color-alt: #ff5448;
   --title-color: #393939;
@@ -57,7 +53,6 @@
     --smaller-font-size: .813rem;
   }
 }
-
 
 /*========== BASE ==========*/
 *,::before,::after{
@@ -138,14 +133,14 @@ h1,h2,h3,p,ul{
   }
   
   /*========== LAYOUT ==========*/
-  .bd-container{
+  .mz-container{
     max-width: 960px;
     width: calc(100% - 2rem);
     margin-left: var(--mb-2);
     margin-right: var(--mb-2);
   }
   
-  .bd-grid{
+  .mz-grid{
     display: grid;
     gap: 1.5rem;
   }
@@ -561,7 +556,7 @@ h1,h2,h3,p,ul{
   }
   
   @media screen and (min-width: 960px){
-    .bd-container{
+    .mz-container{
       margin-left: auto;
       margin-right: auto;
     }
